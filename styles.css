@@ -203,6 +203,18 @@
     animation: glow 5s ease-in-out infinite;
   }
   
+
+  .tower
+  {
+    display: block;
+  }
+
+  @media (min-width: 308px) and (max-width: 1024px) {
+    .tower {
+        display: none; 
+    }
+}
+
   @keyframes glow {
     0%,
     100% {
@@ -283,7 +295,7 @@
     flex-wrap: wrap;
     gap: 4rem;
     align-items: center;
-    width: 120%;
+    width: 108%;
   }
   
   .about-img {
